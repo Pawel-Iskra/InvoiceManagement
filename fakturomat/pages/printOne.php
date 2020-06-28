@@ -29,30 +29,16 @@
         </td>
     </tr>
 
-
     <tr>
         <td style="align-content: center">
-
             <table cellspacing="0">
                 <tr>
-                    <td style="border: 1px solid #333;" align="center">
-                        LP
-                    </td>
-                    <td style="border: 1px solid #333;" align="center">
-                        Usługa / towar
-                    </td>
-                    <td style="border: 1px solid #333;" align="center">
-                        Ilość
-                    </td>
-                    <td style="border: 1px solid #333;" align="center">
-                        Cena netto</br>za szt [zł/szt]
-                    </td>
-                    <td style="border: 1px solid #333;" align="center">
-                        Stawka vat [%]
-                    </td>
-                    <td style="border: 1px solid #333;" align="center">
-                        Cena brutto [zł]
-                    </td>
+                    <td style="border: 1px solid #333;" align="center"> LP </td>
+                    <td style="border: 1px solid #333;" align="center">Usługa / towar</td>
+                    <td style="border: 1px solid #333;" align="center">Ilość</td>
+                    <td style="border: 1px solid #333;" align="center">Cena netto</br>za szt [zł/szt]</td>
+                    <td style="border: 1px solid #333;" align="center">Stawka vat [%]</td>
+                    <td style="border: 1px solid #333;" align="center">Cena brutto [zł]</td>
                 </tr>
 
                 <?php
@@ -87,7 +73,6 @@
                         <B><?php echo $invoice->getGrossSum(); ?> zł</B>
                     </td>
                 </tr>
-
             </table>
         </td>
     </tr>
