@@ -1,10 +1,8 @@
-
 <html>
 <head>
     <style>
         table, td, tr {
             border: 2px solid black;
-
         }
     </style>
 </head>
@@ -72,5 +70,4 @@
         });
     });
 </script>
-
 </html>

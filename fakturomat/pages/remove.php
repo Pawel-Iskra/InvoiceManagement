@@ -7,7 +7,6 @@ Usuń jedną fakturę o podanym numerze:</br>
     <input type="submit" value="Usuń fakturę">
 </form>
 
-
 </br>
 
 <?php

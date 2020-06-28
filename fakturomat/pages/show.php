@@ -6,9 +6,7 @@ Wprowadź numer faktury do wyświetlenia:</br>
     Numer faktury: <input type="text" name="invoicenumber"></br>
     <input type="submit" value="Wyświetl fakturę">
 </form>
-
 </br>
-</html>
 
 <?php
 session_start();
@@ -22,7 +20,7 @@ for ($i = 0; $i < $count; $i++) {
 }
 
 ?>
-
+</html>
 
 
 

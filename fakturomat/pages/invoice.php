@@ -112,7 +112,6 @@ class Seller
         return $this->nip;
     }
 
-
 }
 
 class Item
@@ -149,7 +148,5 @@ class Item
     {
         return $this->vat;
     }
-
-
 
 }
