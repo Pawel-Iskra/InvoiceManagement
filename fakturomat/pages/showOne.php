@@ -18,6 +18,3 @@ if (array_key_exists($id, $_SESSION)) {
     include_once("printOne.php");
 
 } else echo "<B></br>W rejestrze nie istnieje faktura o numerze $id.</B>";
-
-
-
